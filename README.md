@@ -13,3 +13,11 @@ If you have other useful examples or comments, please feel free to contribute.
 Install: `yarn`
 
 Run tests: `yarn test`
+
+There are examples on how to use:
+* `jest.mock` and `jest.unmock`
+* `jest.MockedFunction` and `jest.MockedClass`
+* `jest.spyOn`
+* `jest.genMockFromModule`
+* `jest.requireActual`
+* mock fetch and other globals
