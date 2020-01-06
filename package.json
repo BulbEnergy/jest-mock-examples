@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "preinstall": "npx lockfile-lint --path yarn.lock --type yarn --validate-https --allowed-hosts registry.yarnpkg.com github.com",
     "test": "jest"
   },
   "husky": {
